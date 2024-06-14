@@ -1,0 +1,4 @@
+#chat-window {
+    overflow-y: auto;
+    height: 300px;
+}

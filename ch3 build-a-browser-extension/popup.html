@@ -1,0 +1,35 @@
+<!-- 
+   用于清除浏览器缓存的 Chrome 扩展程序的 HTML。
+   连接到名为 popup.js 的 JavaScript 文件和名为 style.css 的 CSS 文件
+   将呈现以下带有 ID 的按钮：
+   - "All History"
+   - "Past Month"
+   - "Past Week"
+   - "Past Day"
+   - "Past Hour"
+   - "Past Minute"
+
+   将呈现一个带有 ID "lastCleared" 的空段落
+-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body>
+    <button id="allHistory">All History</button>
+    <button id="pastMonth">Past Month</button>
+    <button id="pastWeek">Past Week</button>
+    <button id="pastDay">Past Day</button>
+    <button id="pastHour">Past Hour</button>
+    <button id="pastMinute">Past Minute</button>
+    <p id="lastCleared"></p>
+    <script src="popup.js"></script>
+  </body>
+</html>
+
+
+
+
+

@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "Clear Cache",
+    "version": "1.0",
+    "permissions": [
+        "storage",
+        "tabs",
+        "browsingData"
+    ],
+    "action": {
+        "default_popup": "popup.html"
+    }
+}
