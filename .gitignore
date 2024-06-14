@@ -1,2 +1,6 @@
 # .gitignore
 .env
+.env.*
+!.env.example
+
+/ch9/output
