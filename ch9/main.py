@@ -26,7 +26,7 @@ MODEL_NAME = os.getenv("MODEL_NAME")
 # 创建 OpenAI 实例
 client = OpenAI(base_url = BASE_URL, api_key = API_KEY)
 
-# 先实现一个简单的翻译函数，调用 OpenAI 的 SDK
+# 先实现一个简单的翻译函数，通过 OpenAI SDK 调用大模型 API
 def translate(text):
 	print("SDK requesting...")
 	completion = client.chat.completions.create(
