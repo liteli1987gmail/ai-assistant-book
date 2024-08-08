@@ -10,19 +10,23 @@
 ## 安装依赖
 
 ```shell
-$ pip install openai
-$ pip install python-dotenv
+pip install openai
+pip install python-dotenv
 ```
 
 ## 配置
 
-把环境变量文件的模板（`.env.example`）复制一份，命令名为真正使用的文件名（`.env`）。
+把环境变量文件的模板（`.env.example`）复制一份，命名为真正使用的文件名（`.env`）。
 
 ```shell
-$ cp .env.example .env
+# Windows
+copy .env.example .env
+
+# Linux / macOS
+cp .env.example .env
 ```
 
-编辑 `.env` 文件，配置 LLM API 相关信息。
+编辑 `.env` 文件，填入 LLM API 相关信息。
 
 ## 运行
 
