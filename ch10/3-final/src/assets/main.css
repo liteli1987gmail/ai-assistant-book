@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;
+
+/* 页面设置灰色背景 */
+html {
+	@apply bg-gray-400;
+}
+
+/* 把根组件的所有祖先元素都设置为高度 100% */
+html,
+body,
+#app {
+	@apply h-full;
+}
